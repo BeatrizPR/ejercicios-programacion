@@ -29,3 +29,15 @@ Se puede ejecutar el programa tecleando lo siguiente:
 ```console
 java HolaMundo.java
 ```
+
+## Qué se estudia en programación
+
+* Lenguaje de programación Java
+* Comandos de Linux
+* Git y GitHub
+
+## Bibliografía
+
+<img src="imagenes/aprendejava.jpg" with="240px">
+[Aprende Java con Ejercicios] (https://leanpub.com/aprendejava)
+
