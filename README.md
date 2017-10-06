@@ -36,7 +36,7 @@ java HolaMundo.java
 * Comandos de Linux  :penguin:
 * Git y GitHub  :octocat:
 
-## Bibliografía  :blue_book:
+## :blue_book: Bibliografía
 
 <img src="imagenes/aprendejava.jpg" width="240px">
 [Aprende Java con Ejercicios] (https://leanpub.com/aprendejava)
