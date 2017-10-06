@@ -5,8 +5,8 @@
 
 public class ejercicio01 { // Clase principal
   public static void main(String[] args) {
-    System.out.println("Nombre:Beatriz");
-    System.out.println ("Dirección: Málaga, Calle Marie Curie, nº10");
-    System.out.println ("Teléfono: 6443343424546");
+    System.out.println("\033[35m Nombre:Beatriz");
+    System.out.println ("\033[32m Dirección: Málaga, Calle Marie Curie, nº10");
+    System.out.println ("\033[34m Teléfono: 6443343424546 \033[37m");
   }
 }
