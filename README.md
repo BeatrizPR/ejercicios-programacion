@@ -39,5 +39,5 @@ java HolaMundo.java
 ## :blue_book: Bibliografía
 
 <img src="imagenes/aprendejava.jpg" width="240px">
-[Aprende Java con Ejercicios] (https://leanpub.com/aprendejava)
+[Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
 
