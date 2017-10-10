@@ -1,7 +1,7 @@
 /** Ejercicio 6, piramide de asteriscos
  */
 
-public class ejercicio6 {
+public class Ejercicio6 {
   public static void main(String[] args) {
     
     

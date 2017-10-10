@@ -4,7 +4,7 @@
  * @author Beatriz 
  */
 
-public class ejer5 {
+public class Ejer5 {
   public static void main(String[] args) {
 
     double pesetas;

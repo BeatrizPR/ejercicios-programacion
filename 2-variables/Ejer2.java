@@ -4,7 +4,7 @@
  * @author Beatriz
  */
  
-public class ejer2 {
+public class Ejer2 {
   public static void main(String[] args) {
     
     String nombre = "Beatriz Parejo Ramos";

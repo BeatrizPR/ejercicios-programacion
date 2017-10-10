@@ -2,7 +2,7 @@
  * Ejercicio 5, horario con colores
  */
 
-public class ejercicio5 {
+public class Ejercicio5 {
   public static void main(String[] args) {
     
     String sys = "\033[31m";

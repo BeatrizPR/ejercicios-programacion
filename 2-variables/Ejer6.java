@@ -4,7 +4,7 @@
  * @author Beatriz 
  */
 
-public class ejer6 {
+public class Ejer6 {
   public static void main(String[] args) {
 
     double libro = 30;

@@ -3,7 +3,7 @@
  * a la izquierda incluyo en %14s un menos delante, seria %-14s.
  */
 
-public class ejercicio03 {
+public class Ejercicio03 {
   public static void main(String[] args) {
     System.out.println("  Inglés        	  Español");
     System.out.println("-----------------------------------------");
