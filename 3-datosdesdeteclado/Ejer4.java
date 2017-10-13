@@ -25,7 +25,7 @@ public class Ejer4 {
     System.out.println("x + y es " + suma);
     System.out.println("x - y es " + resta);
     System.out.println("x * y es " + multiplicacion);
-    System.out.println("x / y es " + division);
+    System.out.printf("x / y es %.2f ", division);
 
   }
 }

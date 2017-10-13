@@ -19,7 +19,7 @@ public class Ejer6 {
     
     double areaTriangulo = base*altura/2;
 
-    System.out.println("El área del triángulo es " + areaTriangulo);
+    System.out.println("El área del triángulo es " + areaTriangulo + "cm²");
 
   }
 }
