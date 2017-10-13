@@ -13,8 +13,8 @@ public class Ejer3 {
     double euros = (pesetas / 166.386);
   
     System.out.print(pesetas);
-    System.out.print(" pesetas son ");
-    System.out.printf("%.2f€\n", euros);
+    System.out.printf(" pesetas son %.2f€\n ", euros);
+    
   }
 }
 
