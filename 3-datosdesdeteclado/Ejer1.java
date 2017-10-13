@@ -1,3 +1,9 @@
+/** 
+ * Ejercicio 1. Realiza un programa que pida dos números y que luego muestre 
+ * el resultado de su multiplicación.
+ * @autor Beatriz
+ * */
+
 public class Ejer1 {
   public static void main(String[] args) {
 
