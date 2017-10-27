@@ -8,20 +8,22 @@
  * 
  * @author Beatriz Parejo Ramos
  */
+import java.util.Scanner;
+
  public class Ej10 {
   public static void main(String[] args) {
-    
+    Scanner s = new Scanner(System.in);
     System.out.println("Introduce un número negativo para cerrar el programa");
     System.out.println("Por favor, introduce una nota: ");
-    int nota1 = Integer.parseInt( System.console().readLine() );
+    int nota1 = Integer.parseInt(s.next());
     System.out.println("Por favor, introduce una nota: ");
-    int nota2 = Integer.parseInt( System.console().readLine() );
+    int nota2 = Integer.parseInt(s.next());
     int media = (nota1+nota2) /2;
     int otraNota;
       System.out.println("Tu media es " + media);
     do {
       System.out.println("Si quieres cerrar el programa escribe un numero negativo, sino introduce otra nota: ");
-      otraNota= Integer.parseInt( System.console().readLine() );
+      otraNota= Integer.parseInt(s.next());
       int notaTotal = (media + otraNota) /2;
       if (notaTotal <=0){ 
         

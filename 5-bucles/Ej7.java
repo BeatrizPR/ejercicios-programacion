@@ -7,23 +7,32 @@
  * 
  * Sigo el estandar de Google
  * 
- * @author Beatriz
+ * @author Beatriz Parejo Ramos
  */
+import java.util.Scanner;
+ 
 public class Ej7 {
   public static void main(String[] args) {
-        
+    Scanner s = new Scanner(System.in);
     System.out.println("Escribe un número de 4 cifras");
-    int n = Integer.parseInt(System.console().readLine());
+    int n = Integer.parseInt(s.next());
     
     if (n== 2345){
       System.out.println("La caja fuerte se ha abierto satisfactoriamente");
     } else {
       System.out.println("Lo siento, esa no es la combinación");
     
-    for (int n; !n=2345; n+=4) {
+    int intento =0;
+    do {
+      System.out.println("Vuelve a intentarlo");
+      System.out.println("Escribe un número de 4 cifras");
+      n = Integer.parseInt(s.next());
+      intento++;
+      
+    } while (intento<3);
 
-      System.out.println("vuelve a intentarlo");
-      }
+      
+      
     
     /**int n=320;
     while ((n<=320) && (n>160)){

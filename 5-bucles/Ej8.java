@@ -5,11 +5,13 @@
  * 
  * @author Beatriz Parejo Ramos
  */
+import java.util.Scanner;
+
 public class Ej8 {
   public static void main(String[] args) {
-        
+    Scanner s = new Scanner(System.in);
     System.out.println("Escribe un número para multiplicarlo");
-    int n = Integer.parseInt(System.console().readLine());
+    int n = Integer.parseInt(s.next());
     
     int tabla ;
     int multiplicacion = 0;

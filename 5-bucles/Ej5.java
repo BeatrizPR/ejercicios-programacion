@@ -4,7 +4,7 @@
  * 
  * Sigo el estandar de Google
  * 
- * @author Beatriz
+ * @author Beatriz Parejo Ramos
  */
 public class Ej5 {
   public static void main(String[] args) {

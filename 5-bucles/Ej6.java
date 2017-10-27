@@ -3,11 +3,12 @@
  * 
  * Sigo el estandar de Google
  * 
- * @author Beatriz
+ * @author Beatriz Parejo Ramos
  */
+
+
 public class Ej6 {
   public static void main(String[] args) {
-        
     int n=320;
     do {
       n-=20;
