@@ -1,6 +1,6 @@
 /**Ejercicio 20
-  Escribe un programa que diga cuál es la primera cifra de un número entero
-  introducido por teclado. Se permiten números de hasta 5 cifras.
+  Realiza un programa que diga si un número entero positivo introducido por
+  teclado es capicúa. Se permiten números de hasta 5 cifras.
  * 
  * Sigo el estandar de Google
  * 
