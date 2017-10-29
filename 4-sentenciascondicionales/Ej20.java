@@ -6,43 +6,26 @@
  * 
  * @author Beatriz
  */
+import java.util.Scanner;
  public class Ej20 {
   public static void main(String[] args) {
-    
+    Scanner s = new Scanner(System.in);
+    System.out.println("¿Es este número capicúa? ");
     System.out.println("Por favor, introduce un número entero (que no tenga más de 5 cifras): ");
-    int numero = Integer.parseInt( System.console().readLine() );
+    int numero = Integer.parseInt( s.nextLine() );
     
-    
-    int unidad;
-    int decena;
-    int centena;
-    int unidadMillar;
-    int decenaMillar;
-    
-    
-    /** NO FUNCIONA 
-     * 
-     * 
-     * 
-    centena =(numero / 100);
-    decena =(numero %100) /10;
-    unidad =(numero %100) /10;
-    
-    if (centena == unidad);{
-      System.out.println("El número es capicua");
+    int resto;
+    int numeroInver =0;
+    int n=numero;
+    while (n!=0){
+      resto=n%10;
+      n=n/10;
+      numeroInver= numeroInver* 10 + resto;
     }
-    
-    decenaMillar = numero /10000;
-    unidadMillar = (numero %10000) /10;
-    centena =(numero % 10000) %10;
-    decena =(numero %10000) /10;
-    unidad =(numero %10000) /10;
-    
-    if ((unidad == decenaMillar) && (decena ==unidadMillar)){
-      System.out.println("El número es capicua");
-    } else {
-      System.out.println("El número no es capicua");
-      }
-    **/
+    if (numero==numeroInver){
+      System.out.println("El número "+ numero + " es capicúa");
+      } else { 
+          System.out.println("El número "+ numero + " no es capicúa");
+        }
   }
 }
