@@ -14,7 +14,7 @@ public class Ejercicio03 {
     System.out.printf("%-14s      %14s\n", "film", "película");
     System.out.printf("%-14s      %14s\n", "music", "música");
     System.out.printf("%-14s      %14s\n", "comic", "cómic");
-    System.out.printf("%-14s      %14s\n", "cuadro", "cuadro");
+    System.out.printf("%-14s      %14s\n", "picture", "cuadro");
     System.out.printf("%-14s      %14s\n", "galery", "galería");
     System.out.printf("%-14s      %14s\n", "museum", "museo");
   }
