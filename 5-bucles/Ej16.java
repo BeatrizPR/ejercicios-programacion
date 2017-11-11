@@ -22,10 +22,10 @@ public class Ej16 {
         for (int n=1;n<=numero;n++){
           int numeroPrimo= numero%n;
           
-        if (numeroPrimo==0){
+          if (numeroPrimo==0){
           contador++;
+          }
         }
-      }
       if (contador==2){
         System.out.println("Este numero  es primo ");
       } 

@@ -22,6 +22,7 @@ public class Ej18 {
     int numeroSegundo= Integer.parseInt(s.next());
     System.out.println("---------------------------------------------- ");
       
+      if (numeroPrimero!=numeroSegundo) {
       if (numeroPrimero < numeroSegundo){
         while (numeroPrimero<=numeroSegundo) {
           System.out.println(numeroPrimero);
@@ -34,6 +35,9 @@ public class Ej18 {
           numeroSegundo+=7;
         }
         System.out.println(numeroPrimero);
+        }
+      } else {
+        System.out.println("No has introducido dos números distintos");
         }
   }
 }
