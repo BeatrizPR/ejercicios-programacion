@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Ej19 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
-      System.out.print("Por favor introduzca una altura;");
+      System.out.print("Por favor introduzca una altura:");
       int alturaIntroducida=Integer.parseInt(s.nextLine());
       System.out.print("Introduzca el caracter con el que quiera dibujar:" );
       String c =s.nextLine();

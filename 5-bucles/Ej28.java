@@ -13,13 +13,13 @@ public class Ej28 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     
-      System.out.println("Introduce un número  ");
+      System.out.print("Introduce un número:  ");
       int numero= Integer.parseInt(s.next());
       
       int factorial=1;
       int n=1;
       
-      System.out.print("El numero factorial de "+ numero + " es ");
+      System.out.print("El numero factorial de "+ numero + " es:  ");
       
         while (n<= numero){
         factorial= factorial*n;

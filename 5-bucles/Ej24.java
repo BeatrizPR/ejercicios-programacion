@@ -31,7 +31,7 @@ public class Ej24 {
     while (altura <= alturaIntroducida) {
       
       
-      for (int i = 1; i <= espacios; i++) {  //con este for añado losespacios
+      for (int i = 1; i <= espacios; i++) {  //con este for añado los espacios
         System.out.print(" ");
       }
     

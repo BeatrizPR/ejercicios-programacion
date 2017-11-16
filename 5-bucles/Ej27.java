@@ -13,8 +13,9 @@ public class Ej27 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     
-      System.out.println("Introduce un número  ");
+      System.out.print("Introduce un número:  ");
       int numeroTeclado= Integer.parseInt(s.next());
+      System.out.println("------------------------------");
       
       int numero= numeroTeclado;
       int contador=0;
@@ -22,18 +23,19 @@ public class Ej27 {
       int multiplo=0;
       int n=1;
       
-      System.out.println("Los números multiplos de 3, desde el que has introducido son ");
+      System.out.println("Los números multiplos de 3, desde el que has introducido son: ");
       
-      if (numero%3==0){
-	  while (multiplo<numero){
-	  multiplo=n*3;
+        while (multiplo<numero){
+          multiplo=n*3;
 	
-	  System.out.println(multiplo);
-	  n++;
-	} 
-      
-        
-      }
+          System.out.print(multiplo + " ");
+          n++;
+          suma+=multiplo;
+          contador++;
+        } 
+      System.out.println(" " );
+      System.out.println("El total de numeros es: " + contador );
+      System.out.println("La suma de los multiplos introducidos es: " + suma );
       
      
   }
