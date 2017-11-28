@@ -19,7 +19,6 @@ public class Ej1 {
     
     for (int i=1; i<=3; i++){
       int dado=(int)(Math.random()* 6) +1;
-      //Poner aqui un switch con la impresion de los dados, de unicode
       
       String dadoFigura= " ";
       switch (dado){
