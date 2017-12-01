@@ -44,8 +44,8 @@ public class Ej13 {
           break;
         default:
       } //termina el switch
-    System.out.println("Dado " +  ": " + dadoFigura);
-  
+    System.out.println("Dado 1" +  ": " + dadoFigura );
+    System.out.println("Dado 2" +  ": " + dadoFigura);
     } while (dado1!=dado2);
 
     System.out.println();
