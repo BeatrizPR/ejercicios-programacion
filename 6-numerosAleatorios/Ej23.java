@@ -48,7 +48,5 @@ public class Ej23 {
       } //termina el for
       System.out.println(  " ");
       
-          
-          
   }
 }
