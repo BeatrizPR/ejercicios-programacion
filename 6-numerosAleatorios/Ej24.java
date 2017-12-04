@@ -16,7 +16,7 @@ public class Ej24 {
     System.out.println(" Vamos a sacar un dígito aleatorio del número que introduzcas");
     System.out.println(" ");
       
-       System.out.print("Por favor, introduzca un número entero: ");
+      System.out.print("Por favor, introduzca un número entero: ");
       int numIntroducido=Integer.parseInt(s.nextLine());
       int numero = numIntroducido; // para guardar el numero introducido
       int contador = 0; 
