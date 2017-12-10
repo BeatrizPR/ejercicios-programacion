@@ -33,7 +33,7 @@ public class Ej10 {
             c = " - ";
             break;
           case 2:
-            c = " - ";
+            c = " = ";
             break;
           case 3:
             c = " . ";

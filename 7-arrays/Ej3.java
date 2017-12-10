@@ -28,9 +28,9 @@ public class Ej3 {
     
         System.out.println("Ahora le damos la vuelta, e introducimos los números en orden inverso ");
         System.out.println(" ");
-          for (i=9; i >= 0; i--) { //con el bucle de 9 a 0, voy mostrando los numeros al reves
-            System.out.println(num[i]); 
-          }
-          System.out.println(" ");
+        for (i=9; i >= 0; i--) { //con el bucle de 9 a 0, voy mostrando los numeros al reves
+          System.out.println(num[i]); 
+        }
+        System.out.println(" ");
   }
 }
