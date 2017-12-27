@@ -34,7 +34,7 @@ public class Ej7 {
       System.out.print(array[i] +" ");
     }
     System.out.println(" ");
-    System.out.print("Por favor, introduzca un número de la lista para sustituirlo y pulsa intro  ");
+    System.out.print("Por favor, introduzca un número de la lista para sustituirlo y pulse intro  ");
     cambioNum=Integer.parseInt(s.nextLine());
     System.out.print("¿Por qué número quieres cambiarlo? Pulsa intro  ");
     nuevoNum=Integer.parseInt(s.nextLine());
