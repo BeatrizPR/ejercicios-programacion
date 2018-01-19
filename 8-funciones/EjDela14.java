@@ -38,13 +38,9 @@ public class EjDela14 {
       
      /**********Ejercicio 3- siguiente primo pimo **********/
      
-    /**System.out.println("Introduce un número para saber el siguiente primo. ");
+    System.out.println("Introduce un número para saber el siguiente primo. ");
     numero =Integer.parseInt( s.next() );
-    if (matematicas.Varias.esPrimo(numero)){
-      System.out.println("El número"+ numero +" es primo ");
-    } else {
-      System.out.println("El número"+ numero +" no es primo ");
-      }**/
+    System.out.println("El siguiente primo al numero introducido es "+ matematicas.Varias.siguientePrimo(numero));
       
      
     /**********Ejercicio 4- Potencia **********/
@@ -131,27 +127,37 @@ public class EjDela14 {
     System.out.println("Al añadir el digito por detrás al número tenemos:  "+ matematicas.Varias.pegaPorDetras(numero, digito));
       
       
-      /********* Ejercicio 11 -Añade digito a un número por detrás ***************/
+     /********* Ejercicio 12 -Añade digito a un número por delante ***************/
     
     System.out.print("Por favor, introduzca un número para añadir delante un digito  ");
     numero =Integer.parseInt( s.next() );
     System.out.print("Por favor, introduzca un digito  ");
     digito =Integer.parseInt( s.next() );
     
-    System.out.println("Al añadir el digito por delante al número tenemos:  "+ matematicas.Varias.pegaPorDetras(numero, digito));
-      
+    System.out.println("Al añadir el digito por delante al número tenemos:  "+ matematicas.Varias.pegaPorDelante(numero, digito));
     
-   /** for (i = 0; i < 10; i++) {
-      System.out.printf(" |%7d ", i);
-    }
-    System.out.println();
-    System.out.println();
-    System.out.println("Introducido por teclado:");
-    System.out.println();
-    System.out.print("Array  ");
-    */
     
-
+    /********* Ejercicio 13 - Trozo de número ***************/
+    
+    System.out.print("Por favor, introduzca un número para coger una parte del inicio y otra del final  ");
+    numero =Integer.parseInt( s.next() );
+    System.out.print("Por favor, introduzca un número del inicio  ");
+    int inicio =Integer.parseInt( s.next() );
+    System.out.print("Por favor, introduzca un número del final  ");
+    int fin =Integer.parseInt( s.next() );
+    
+    System.out.println("Al unir el inicio y el final del número tenemos:  "+ matematicas.Varias.trozoDeNumero(numero, inicio, fin));
+    
+    
+    /********* Ejercicio 14 - Junta números ***************/
+    
+    System.out.print("Por favor, introduzca un número para unirlo a otro  ");
+    int numero1 =Integer.parseInt( s.next() );
+    System.out.print("Por favor, introduzca el segundo numero para unirlo al primero y formar uno solo  ");
+    int numero2 =Integer.parseInt( s.next() );
+    
+    System.out.println("Al añadir el segundo número al primero tenemos:  "+ matematicas.Varias.juntaNumeros(numero1, numero2));
+    
 
   }  // cierra el public static
 } // cierra el public class
