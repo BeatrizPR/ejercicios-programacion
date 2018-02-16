@@ -5,7 +5,7 @@
  
  
 
-package matematicas;
+package ej16;
 public class Varias{
   
       //// EJERCICIO 1 - CAPICUA ////
